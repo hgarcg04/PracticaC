@@ -1,5 +1,4 @@
 #include <stdio.h>
-void calculanota(int nota);
 
 int main()
 {
