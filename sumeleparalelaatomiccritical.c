@@ -46,6 +46,6 @@ int main()
     printf("\n");
     printf("La media es %f\n",media);
     printf("El tiempo que dura es %f\n",t2-t1);
-    free(*vector);
+    free(vector);
     return 0;
 }
