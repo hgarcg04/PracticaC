@@ -10,6 +10,7 @@ int main()
     double t1,t2;
     matriz=(int*)malloc(n*n*(sizeof(int)));
     srand(time(NULL));
+    omp_set_num_threads(8);
     t1=omp_get_wtime();
     #pragma omp parallel private(i,j)
     {
